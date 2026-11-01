@@ -6,8 +6,27 @@ import java.io.InputStreamReader;
 
 /*
 TODO: your code here
+<<<<<<< HEAD
 */
 
+=======
+
+*/
+
+@FunctionalInterface
+interface PricingRule {
+    double adjust(Ticket ticket, double price);
+}
+
+class PricingRules {
+
+    private PricingRules() {
+    }
+
+
+}
+
+>>>>>>> 49b4a4a (added lab 2)
 abstract class Ticket {
     private final String plate;
     private final int minutes;
@@ -133,6 +152,10 @@ class ParkingLot {
 // In <plate>, the word NULL means a null plate and the word EMPTY means the empty string "".
 
 public class Lab1 {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 49b4a4a (added lab 2)
     private static ParkingLot lot = null;
 
     private static String plateArg(String token) {
