@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/np-code-2025" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/temp-np" vcs="Git" />
   </component>
 </project>
